@@ -39,25 +39,44 @@ body{
 }
 
 .article {
-  min-height: 136px;;
+  display: block;
   background-color: #926239;
   color: #fff;
+  box-sizing: border-box;
+  text-align: left;
+  
 }
 .column{
-  width: 33.33%;
   display: inline-block;
+  width: 33.33%;
   box-sizing: border-box;
   vertical-align: top;
+  padding: 5px;;
+  
+  
+  
 }
 
 .bg-white { 
+  display: inline-block;
   color:black;;
   background-color:#fff;
+  padding: 5px;;
+  box-sizing:border-box;
+  vertical-align: top;
+
+  margin: 5px;
+  
 }
 .new-column{
+  display: inline-block;
   color:black;;
   background-color:#fff;
-  background-size:cover;
-  display: inline-block; 
-  padding: 20px;;
+  padding: 20px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  vertical-align: top;
+  width: 33.33%;
+  
+  
 }
