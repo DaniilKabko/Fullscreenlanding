@@ -39,7 +39,7 @@ body{
 }
 
 .article {
-  padding: 20px;
+  min-height: 136px;;
   background-color: #926239;
   color: #fff;
 }
@@ -49,6 +49,7 @@ body{
   box-sizing: border-box;
   vertical-align: top;
 }
+
 .bg-white { 
   color:black;;
   background-color:#fff;
@@ -56,8 +57,7 @@ body{
 .new-column{
   color:black;;
   background-color:#fff;
-  width: 33.33%;
-  display: inline-block;
-  box-sizing: border-box;
-  vertical-align: top;
+  background-size:cover;
+  display: inline-block; 
+  padding: 20px;;
 }
